@@ -3,7 +3,7 @@ $(document).ready(function() {
   var settings = {
     "async": true,
     "crossDomain": true,
-    "url": "http://pokeapi.co/api/v2/pokemon-species",
+    "url": "https://pokeapi.co/api/v2/pokemon-species",
     "method": "GET",
     "headers": {}
   };
