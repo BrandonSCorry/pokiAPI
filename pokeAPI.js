@@ -9,6 +9,9 @@ $(document).ready(function() {
   };
 
   $.ajax(settings).then(function (response) {
+
+    var results = response.data;
+    console.log(results);
     console.log(response);
   });
 
