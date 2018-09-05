@@ -10,7 +10,7 @@ $(document).ready(function() {
 
   $.ajax(settings).then(function (response) {
 
-    var results = response.data;
+    var results = response.results;
     console.log(results);
     console.log(response);
   });
