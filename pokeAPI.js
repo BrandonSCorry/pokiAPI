@@ -8,7 +8,7 @@ $(document).ready(function() {
     "headers": {}
   };
 
-  $.ajax(settings).done(function (response) {
+  $.ajax(settings).then(function (response) {
     console.log(response);
   });
 
