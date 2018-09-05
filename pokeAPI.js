@@ -9,7 +9,7 @@ $(document).ready(function() {
   };
 
   $.ajax(settings).done(function (response) {
-    console.log(JSON.parse(response));
+    console.log(response);
   });
 
   console.log("");
